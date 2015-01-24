@@ -34,5 +34,11 @@ namespace PathViewer
                 lvPaths.Items.Add(i); 
             }
         }
+
+        // Have the column width match the listview width
+        private void lvPaths_Resize(object sender, EventArgs e)
+        {
+            lvPaths.Columns[0].Width = lvPaths.Width;
+        }
     }
 }
