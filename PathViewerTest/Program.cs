@@ -11,8 +11,17 @@ namespace PathViewerTest
     {
         static void Main(string[] args)
         {
-            var result = EnvironmentData.GetEnvironmentFromRegistry("PATH");
-            Console.WriteLine("Path = {0}", result);
+
+           // var f = new Form1() 
+
+        //{
+        //    var result = EnvironmentData.GetEnvironmentFromRegistry("PATH");
+        //    Console.WriteLine("Path = {0}", result);
+
+        //    var o1 = result.Split(';'); 
+
+        //    foreach(var _ in o1)
+        //        Console.WriteLine(_);
         }
     }
 }

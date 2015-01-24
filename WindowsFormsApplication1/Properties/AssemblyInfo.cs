@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PathViewer")]
-[assembly: AssemblyDescription("A program for displaying your Path")]
+[assembly: AssemblyTitle("WindowsFormsApplication1")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PathViewer")]
-[assembly: AssemblyCopyright("Copyright ©  2015 Mark Brents")]
+[assembly: AssemblyProduct("WindowsFormsApplication1")]
+[assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0f55b692-cf97-4a30-bc06-707f24e3506c")]
+[assembly: Guid("77fbd83e-7b36-4b77-aa83-3898fd8dcfb5")]
 
 // Version information for an assembly consists of the following four values:
 //
