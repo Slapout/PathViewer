@@ -25,6 +25,9 @@ namespace PathViewer
             string regKey = @"SYSTEM\CurrentControlSet\Control\Session Manager\Environment\";
             string regValue = (string)Registry.LocalMachine.OpenSubKey(regKey).GetValue("PATH", "", RegistryValueOptions.DoNotExpandEnvironmentNames);
 
+            // Show length in title
+            this.Text = "Path Viewer (" + regValue.Length + ")"; 
+
             // Split the string
             var paths = regValue.Split(';'); 
 
