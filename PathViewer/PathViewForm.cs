@@ -33,6 +33,16 @@ namespace PathViewer
             {
                 lvPaths.Items.Add(i); 
             }
+
+            // Alternate the background colors
+            foreach (ListViewItem item in lvPaths.Items)
+            {
+                if (item.Index % 2 == 0)
+                    item.BackColor = Color.White;
+                else
+                    item.BackColor = Color.FromArgb(200, 200, 200);
+
+            }
         }
 
         // Have the column width match the listview width
